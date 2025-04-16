@@ -26,10 +26,12 @@ function App() {
         <button onClick={decrement} disabled={count === 0} style={{ marginLeft: '10px', padding: '10px', backgroundColor: 'lightcoral', borderRadius: '10px'}}> Decrement </button>
         
         {count === 0 && <p style={{ color: 'red' }}>You have reached the limit</p>}
-      </div>
-      <p className="text">
+
+        <p className="text">
         This is a simple counter app built with React. You can increment, decrement, and reset the counter value.
-      </p>
+        </p>
+      </div>
+      
     </>
   )
 }
